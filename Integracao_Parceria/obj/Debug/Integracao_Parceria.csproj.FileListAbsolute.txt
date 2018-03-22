@@ -1,0 +1,11 @@
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\bin\Debug\Integracao_Parceria.exe.config
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\bin\Debug\Integracao_Parceria.exe
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\bin\Debug\Integracao_Parceria.pdb
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\bin\Debug\Dapper.dll
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\bin\Debug\Dapper.xml
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.csprojResolveAssemblyReference.cache
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.Integracao.resources
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.Properties.Resources.resources
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.csproj.GenerateResource.Cache
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.exe
+c:\users\william\documents\visual studio 2015\Projects\Integracao_Parceria\Integracao_Parceria\obj\Debug\Integracao_Parceria.pdb
