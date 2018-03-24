@@ -45,9 +45,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::Integracao_Parceria.Properties.Resources.calc;
             this.pictureBox1.Location = new System.Drawing.Point(315, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -59,7 +61,7 @@
             this.tabelaShHomologadas.Size = new System.Drawing.Size(344, 232);
             this.tabelaShHomologadas.TabIndex = 2;
             // 
-            // Form1
+            // Integracao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -67,8 +69,10 @@
             this.Controls.Add(this.tabelaShHomologadas);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pesquisaTxt);
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.Name = "Integracao";
             this.Text = "Home homologa";
+            this.Load += new System.EventHandler(this.Integracao_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaShHomologadas)).EndInit();
             this.ResumeLayout(false);

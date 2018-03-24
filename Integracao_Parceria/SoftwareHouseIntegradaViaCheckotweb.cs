@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Integracao_Parceria
+﻿namespace Integracao_Parceria
 {
-    class SoftwareHouseIntegradaViaCheckotWeb
+    class SoftwareHouseIntegradaViaCheckotWeb : ISoftwareHouse
     {
+        public int Cnpj { get; set; }
+        public string Email { get; set; }
+        public string Name { get; set; }
+        public string Ramo { get; set; }
+        public int Telefone { get; set; }
     }
 }

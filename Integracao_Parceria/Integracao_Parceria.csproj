@@ -38,6 +38,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -50,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection\DataBaseConnection.cs" />
     <Compile Include="Integracao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +60,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterOfSoftwareHouses.cs" />
+    <Compile Include="SoftwareHouseIntegradaViaApi.cs" />
+    <Compile Include="SoftwareHouseIntegradaViaCheckotweb.cs" />
+    <Compile Include="SoftwareHouseIntegradaViaIntpos.cs" />
+    <Compile Include="SoftwareHouses.cs" />
     <EmbeddedResource Include="Integracao.resx">
       <DependentUpon>Integracao.cs</DependentUpon>
     </EmbeddedResource>
@@ -69,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -83,6 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
