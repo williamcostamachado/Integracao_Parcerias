@@ -64,7 +64,7 @@
     <Compile Include="SoftwareHouseIntegradaViaApi.cs" />
     <Compile Include="SoftwareHouseIntegradaViaCheckotweb.cs" />
     <Compile Include="SoftwareHouseIntegradaViaIntpos.cs" />
-    <Compile Include="SoftwareHouses.cs" />
+    <Compile Include="ISoftwareHouses.cs" />
     <EmbeddedResource Include="Integracao.resx">
       <DependentUpon>Integracao.cs</DependentUpon>
     </EmbeddedResource>
